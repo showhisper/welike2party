@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang = "ko">
+	<head>
+		<meta charset="UTF-8">
+		<title> shorten url </title>
+		<style>
+		.direction1 {
+			direction:ltr;
+		}
+		p {
+			font-size:13px;
+		}
+		body { 
+			background-color:#333; 
+			color:#fff; 
+			} <! 전체 배경 바꾸는건가봄>
+		</style>
+
+
+	</head>
+
+	<body>
+	
+	<header>
+		<hgroup>
+			<h1 class="direction1"> Shorten URL </h1>
+			<p class="direction1"> url이쁘게 줄이기</p>
+		
+	</header>
+
+	<section id="memo">
+		<form>
+			<fieldset>
+				<legend> 주소를 입력해주세요!
+				</legend>
+				<label><input type="url" placeholder="ex) http://www.naver.com" autofocus></label>
+
+				<input type="button" value="바꾸기"><br>
+				<p></p>
+				<select id="class">
+					<option value="서버로 넘길 값?">짧게 줄이기</option>
+					<option valus="서버로 넒길 값2">흔적 남기기</option>
+				</select>
+		</form>
+	</section>
+
+	</body>
+	</html>
